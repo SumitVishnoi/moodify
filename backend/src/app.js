@@ -1,6 +1,6 @@
 const express = require("express")
 const cookieParser = require("cookie-parser")
-const router = require("../routes/auth.routes")
+const router = require("../src/routes/auth.routes")
 
 const app = express()
 
