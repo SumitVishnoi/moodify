@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(75, 1, 1);
 
     .form-container {
         display: flex;
@@ -25,7 +24,7 @@
             gap: 0.5rem;
 
             input{
-                padding: 0.5rem;
+                padding: 1rem;
                 border-radius: 0.25rem;
                 border: 1px solid #ccc;
 
