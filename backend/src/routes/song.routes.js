@@ -6,5 +6,6 @@ const songRouter = Router()
 
 songRouter.post("/", upload.single("song"), songController.uploadSong)
 
+songRouter.get("/", songController.getSong)
 
 module.exports = songRouter
